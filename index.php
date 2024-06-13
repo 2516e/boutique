@@ -6,7 +6,7 @@
     </div>
     <section class="top">
         <div class="leftdiv">
-            <p class="title">Paiement Sécurisé</p>
+            <h3 class="title">Paiement Sécurisé</h3>
             <br>
             <p>Réglez vos achats en toute sèrènitè sur maboutique.com</p>
             <br>
@@ -14,18 +14,19 @@
         </div>
         <hr>
         <div class="middiv">
-            <p class="title">Qui sommes nous?</p>
+            <h3 class="title">Qui sommes nous?</h3>
             <br>
             <p>Bienvenue chez MaBoutique | MaBoutique est la plus grande boutique en ligne de France consacrèe à la mode et à la beauté pour femmes et hommes. Nous proposons plus de 850 marques ainsi que nos propres collections. N'hésitez plus les livraisons et les retourns sont gratuits. Petraite possible de votre commande dans notre entrepot dus RDV.</p>
         </div>
         <hr>
         <div class="rightdiv">
-            <p class="title">Services</p>
+            <h3 class="title">Services</h3>
             <br>
             <div class="delivery">
                 <img src="public\assets\img\camion.png" alt="deliverytruck">
                 <p>Livraison sous 48h</p>
             </div>
+            <br>
             <div class="return">
                 <img src="public\assets\img\echange.png" alt="return">
                 <p>Produits Echangeables</p>
@@ -35,42 +36,56 @@
     <section class="bottom">
         <div class="boxcontainer">
             <div class="titlebox">
-                <p class="titlebg">Bon Plan</p>
+                <h4 class="titlebg">Bon Plan</h4>
             </div>
             <div class="boxcontent">
-                <img src="public\assets\img\robe.png" alt="robe">
-                <p> bloc bloc bloc bloc bloc bloc bloc 
+                <div>
+                    <img src="public\assets\img\robe.png" alt="robe">
+                </div>
+                <div>
+                    <p> bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc</p>
                 <a href="">Voir</a>
+                </div>
             </div>
         </div>
         <div class="boxcontainer">
             <div class="titlebox">
-                <p class="titlebg">Coup de coeur</p>
+                <h4 class="titlebg">Coup de coeur</h4>
             </div>
             <div class="boxcontent">
-                <img src="public\assets\img\talons.png" alt="talon">
-                <p> bloc bloc bloc bloc bloc bloc bloc 
+                <div>
+                    <img src="public\assets\img\talons.png" alt="talon">
+                </div>
+                <div>
+                    <p> bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc</p>
-                <a href="">Voir</a>
+                    <a href="">Voir</a>
+                </div>
             </div>
         </div>
         <div class="boxcontainer">
             <div class="titlebox">
-                <p class="titlebg">Objectif Plaisir</p>
+                <h4 class="titlebg">Objectif Plaisir</h4>
             </div>
             <div class="boxcontent">
-                <img src="public\assets\img\chemise.png" alt="chemise">
-                <p> bloc bloc bloc bloc bloc bloc bloc 
+                <div>
+                    <img src="public\assets\img\chemise.png" alt="chemise">
+                </div>
+                <div>
+                    <p> bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc 
 	                bloc bloc bloc bloc bloc bloc bloc</p>
-                <a href="">Voir</a>
+                    <a href="">Voir</a>
+                </div>
             </div>
         </div>
     </section>
 </main>
+
+<?php include __DIR__ . "/public/footer.html.php" ?>

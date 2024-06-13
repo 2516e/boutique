@@ -20,7 +20,7 @@ body{
 
 /* HEADER */
 
-header{
+.headercontent{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,15 +93,32 @@ ul{
     color: white;
 }
 
-nav a{
-    text-decoration: none;
-    color: white
+nav li{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
 }
+
+li:hover{
+    background-color: rgb(255, 0, 195);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* END NAV */
 
 /* MAIN */
 /* TOP PART */
+
+.bandeau img{
+    width: 100%;
+}
 
 .top{
     display: flex;
@@ -119,9 +136,17 @@ nav a{
 
 
 .middiv{
-    width: 70%;
+    width: 65%;
 }
- 
+
+.leftdiv{
+    width: 30%;
+}
+
+.rightdiv{
+    width: 30%;
+}
+
 .rightdiv>div{
     display: flex;
     align-items: center;
@@ -132,6 +157,7 @@ nav a{
 .bottom{
     display: flex;
     justify-content: space-evenly;
+    padding: 10px 0 30px 0;
 }
 .boxcontainer {
     display: flex;
@@ -144,17 +170,80 @@ nav a{
 .boxcontent{
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 
 .titlebox{
     background-color: rgba(128, 128, 128, 0.5);
-    height: 20%;
-    display: flex;
-    align-items: center;
+    height: 25%;
+    text-align: center;
+    padding-top: 5px;
 }
 
 main a {
     color: rgb(103, 220, 255) ;
+    text-decoration-line: underline;
 }
 
 /* END MAIN */
+
+/* FOOTER */
+
+footer{
+    font-size: small;
+    background-color: rgb(103, 220, 255) ;
+}
+
+footer ul{
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width : 1200px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media (max-width : 1024px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width : 960px){
+    .container{
+        width: 100%;
+    }
+    .top,.bottom{
+        flex-direction: column;
+    }
+    .boxcontainer{
+        width: 100%;
+    }
+    footer{
+        height: 300px;
+        padding: 15px;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start center;
+        gap : 20px;
+        font-size: large;
+    }
+}
+
+@media (max-width : 550px){
+    .headercontent{
+        flex-direction: column;
+        height: 200px;
+    }
+    nav{
+        height: 300px;
+    }
+    nav ul{
+        flex-direction: column;
+        height: 300px;
+    }
+}

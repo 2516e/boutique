@@ -9,28 +9,30 @@
 <body>
     <div class="container">
         <header>
-            <div class="logo">
-                <div>
-                    <img src="public\assets\img\logo.png" alt="logo">
+            <div class="headercontent">
+                <div class="logo">
+                    <div>
+                        <img src="public\assets\img\logo.png" alt="logo">
+                    </div>
+                    <div class="logotitle">
+                        <h1>Ma Boutique</h1>
+                        <h6>Vente en ligne. Tendance et Déco.</h6>
+                    </div>
                 </div>
-                <div class="logotitle">
-                    <h1>Ma Boutique</h1>
-                    <h6>Vente en ligne. Tendance et Déco.</h6>
+                <div class="info">
+                    <div class="help">
+                        <h2>Besoin d'aide?</h2>
+                    </div>
+                    <div class="infocontent">
+                        <p>0800 10 28 10</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info">
-                <div class="help">
-                    <h2>Besoin d'aide?</h2>
-                </div>
-                <div class="infocontent">
-                    <p>0800 10 28 10</p>
-                </div>
-            </div>
-            <div class="cartcontainer">
-                <p>Mon compte</p>
-                <div class="cart">
-                    <a href=""><img src="public/assets/img/article.png" alt="basket"></a>
-                    <p>article(s) dans votre panier.</p>
+                <div class="cartcontainer">
+                    <p>Mon compte</p>
+                    <div class="cart">
+                        <a href=""><img src="public/assets/img/article.png" alt="basket"></a>
+                        <p>article(s) dans votre panier.</p>
+                    </div>
                 </div>
             </div>
         </header>
