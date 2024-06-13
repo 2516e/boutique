@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.234);
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.logo{
+    display: flex;
+    font-style: italic;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.logotitle>h6{
+    color: rgb(224, 36, 168);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(103, 220, 255);
+    text-align: center;
+}
+
+.infocontent{
+    height: 23px;
+    width: 170px;
+    background-image: url("../img/aide.png");
+    background-repeat:no-repeat ;
+    background-size: contain;
+}
+
+.infocontent>p{
+    margin:3px 0 0 20px;
+}
+
+.cartcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: white;
+}
+
+.cartcontainer>p{
+    text-align: center;
+    background-color: rgb(103, 220, 255);
+}
+
+.cart{
+    display: flex;
+    background-color: rgb(103, 220, 255);
+    align-items: center;
+}
+
+
+
+/* END HEADER */
+
+/* NAV */
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: rgb(103, 220, 255) ;
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white
+}
+
+/* END NAV */
+
+/* MAIN */
+/* TOP PART */
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px ;
+}
+
+.top>div{
+    margin: 20px;
+}
+
+.title{
+    color: rgb(103, 220, 255) ;
+}
+
+
+.middiv{
+    width: 70%;
+}
+ 
+.rightdiv>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* BOTTOM PART */
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+
+.boxcontent{
+    display: flex;
+    align-items: center;
+}
+
+.titlebox{
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+main a {
+    color: rgb(103, 220, 255) ;
+}
+
+/* END MAIN */
